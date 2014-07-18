@@ -1,0 +1,122 @@
+
+
+#login1 form input {
+	height: 30px;
+}
+
+#login1 form input[type="text"], #login1 form input[type="password"] {
+	background-color: #6C6E67;
+	border-radius: 3px;
+	color: #eee;
+	margin-bottom: 1em;
+	padding: 0 16px;
+	width: 200px;
+	border:medium none !important;
+}
+
+#login1 form input[type="submit"] {
+	background-color: #A8B38D;
+	border-radius: 3px;
+	color: #eee;
+	font-weight: bold;
+	width: 110px;
+	border:medium none !important;
+}
+
+#login1 form input[type="submit"]:hover {
+	background-color: #CBD4B6;
+}
+
+//sign in form 2 
+#login2 {
+	margin: 50px auto;
+	width: 240px;
+}
+
+#login2 form input {
+	height: 45px;
+}
+
+#login2 form input[type="text"], input[type="password"] {
+	background-color: #6E8ABA;
+	border-radius: 3px;
+	color: #eee;
+	margin-bottom: 1em;
+	padding: 0 16px;
+	width: 200px;
+	border:medium none !important;
+}
+
+#login2 form input[type="submit"] {
+	background-color: #132F5E;
+	border-radius: 3px;
+	color: #eee;
+	font-weight: bold;
+	width: 232px;
+	border:medium none !important;
+	margin-bottom: -2em;
+}
+
+#login2 form input[type="submit"]:hover {
+	background-color: #204380;
+}
+
+#checkbox label{
+	font-size: 13px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 19px;
+ 
+}
+
+//sign in form 3
+
+#login3 {
+	width: 370px;
+	border: double #CC9D81;
+	padding: 30px;
+	border-radius: 7px;
+	// background-color: #E5FEFB;
+}
+
+#login3 form input {
+	height: 45px;
+}
+
+#login3 form input[type="text"], input[type="email"] {
+	background-color: #F9E6C9 ;
+	border-radius: 5px;
+	color: #1A1724;
+	margin-bottom: .5em;
+	padding: 0 16px;
+	width: 150px;
+	height: 50px;
+	border:medium none !important;
+	font-size: 14px;
+
+}
+
+#login3 form input[type="submit"] {
+	background-color: #eee;
+	border-radius: 3px;
+	color: grey;
+	font-size: 12px;
+	font-weight: bold;
+	width: 200px;
+	border:medium none !important;
+	margin-bottom: -2em;
+	margin-left:90px;
+	margin-top: .5em;
+}
+
+#login3 form input[type="submit"]:hover {
+	background-color: #B5FBF5;
+}
+
+#checkbox label{
+	font-size: 13px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 19px;
+ 
+}

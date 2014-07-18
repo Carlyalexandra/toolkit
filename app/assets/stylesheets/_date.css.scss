@@ -1,0 +1,30 @@
+$default2-color: #FFD275;
+$default-font: 13px;
+
+input[type="date"] {
+     -webkit-align-items: center;
+     display: -webkit-inline-flex;
+     font-family: monospace;
+     overflow: hidden;
+     padding: 0;
+     -webkit-padding-start: 1px;
+     border-radius: 3px;
+     background-color: $default2-color;
+     border: medium none;
+     width: 180px;
+     font-size: $default-font;
+     font-family: "Avante Garde";
+     border: 1px solid rgba(0, 0, 0, .2);
+
+}
+
+
+::-webkit-datetime-edit { padding: .8em; }
+::-webkit-datetime-edit-fields-wrapper {}
+::-webkit-datetime-edit-text { color: black; padding: 0 0.2em;}
+::-webkit-datetime-edit-month-field { color: black;  }
+::-webkit-datetime-edit-day-field { color: black; }
+::-webkit-datetime-edit-year-field { color: black;}
+::-webkit-inner-spin-button { display: none; }
+::-webkit-calendar-picker-indicator {font-size: 18px; background-color: $default2-color; 
+    padding-left: 15px; border-left: 3px solid rgba(0,0,0,.2);}

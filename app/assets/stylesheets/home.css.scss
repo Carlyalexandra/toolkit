@@ -1,0 +1,119 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$default-font_size: 16px;
+$default-thinkness: bold;
+
+
+#fonts p{
+	margin-bottom: -.8em;
+}
+
+.arial{
+	font-family:"Arial";
+	font-size: 20px;
+}
+.century_g {
+    font-family:"Century Gothic";
+    font-size: 20px;
+}
+.book_a {
+     font-family:"Book Antiqua";
+     font-size: 20px;
+}
+.garmond{
+     font-family:"Garmond";
+     font-size: 20px;
+}
+.optima{
+     font-family:"Optima";
+     font-size: 20px;
+}
+.goudy_os{
+     font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+     font-size: 20px;
+}
+
+.arial_16{
+	font-family:"Arial";
+	font-size: $default-font_size;
+}
+.century_g_16 {
+    font-family:"Century Gothic";
+    font-size: $default-font_size;
+}
+.book_a_16 {
+     font-family:"Book Antiqua";
+     font-size: $default-font_size;
+}
+.garmond_16{
+     font-family:"Garmond";
+     font-size: $default-font_size;
+}
+.optima_16{
+     font-family:"Optima";
+     font-size: $default-font_size;
+}
+.goudy_os_16{
+     font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+     font-size: $default-font_size;
+}
+
+.arial_32{
+	font-family:"Arial";
+	font-size: 32px;
+}
+.century_g_32 {
+    font-family:"Century Gothic";
+    font-size: 32px;
+}
+.book_a_32 {
+     font-family:"Book Antiqua";
+     font-size: 32px;
+}
+.garmond_32{
+     font-family:"Garmond";
+     font-size:32px;
+}
+.optima_32{
+     font-family:"Optima";
+     font-size: 32px;
+}
+.goudy_os_32{
+     font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+     font-size: 32px;
+}
+
+
+.arial_bold{
+	font-family:"Arial";
+	font-size: $default-font_size;
+	font-weight: $default-thinkness;
+}
+.century_bold {
+    font-family:"Century Gothic";
+    font-size: $default-font_size;
+    font-weight: $default-thinkness;
+}
+.book_bold{
+     font-family:"Book Antiqua";
+     font-size: $default-font_size;
+     font-weight: $default-thinkness;
+}
+.garmond_bold{
+     font-family:"Garmond";
+     font-size: $default-font_size;
+     font-weight: $default-thinkness;
+}
+.optima_bold{
+     font-family:"Optima";
+     font-size: $default-font_size;
+     font-weight: $default-thinkness;
+}
+.goudy_os_bold{
+     font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+     font-size: $default-font_size;
+     font-weight: $default-thinkness;
+}
+

@@ -1,0 +1,156 @@
+
+
+.inline {
+	a {
+	text-decoration: none;
+	color: #BADCFF;
+	}
+	
+	ul {
+	font-family: "Century Gothic";
+	color: #BADCFF;
+	background-color: #507ED6;
+	width: 540px;
+	border-radius:3px;
+	text-align: center;
+	font-size: 18px;
+
+	}
+
+	li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 12px;
+	margin: 0;
+	width: 80px;	
+}
+	li:hover {
+      background-color: #4AE8BA;
+	}
+
+	a:hover {
+		background-color: #4AE8BA;
+	}
+
+}	
+
+ul, menu, dir {
+list-style-type: none;
+-webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 0px;
+
+}
+
+//dropdown menu stylying starts here
+
+
+
+.navdrop	{
+	height: 50px;
+    padding: 0;
+	margin: 0;
+	position: absolute; 
+	border-radius: 5px;
+}
+
+.navdrop li 	{
+	height: auto;
+	width: 140px;  
+	float: left; 
+	text-align: center;  
+	list-style: none;  
+	padding: 0;
+	margin: 0;
+	background-color: #366b82;
+}
+
+.navdrop a	{							
+	padding: 18px 0;  
+	border-left: 1px solid #54879d; 
+	border-right: 1px solid #1f5065; 
+	text-decoration: none;  
+	color: white; 
+	display: block;
+	font-size: 16px;
+	font-family: "Candara";
+}
+
+.navdrop li:hover, a:hover {
+	background-color: #54879d;
+} 
+
+.navdrop li ul 	{
+	display: none;  
+	height: auto;									
+	margin: 0; 
+	padding: 0; 
+	
+}	
+
+.navdrop li:hover ul 	{
+    display: block;   
+}			
+
+.navdrop li ul li {
+	background-color: #54879d;
+}
+
+.navdrop li ul li a 	{
+	border-left: 1px solid #1f5065; 
+	border-right: 1px solid #1f5065; 
+	border-top: 1px solid #74a3b7; 
+	border-bottom: 1px solid #1f5065; 
+}
+				
+.navdrop li ul li a:hover {
+	background-color: #366b82;
+}
+
+//pain navigation
+.clear {
+	clear: both;
+}
+
+.navplain {
+
+
+	ul {
+	font-family: "Arial";
+	font-size: 16px;
+	width: 500px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	text-align: center;
+	padding: 10px;
+
+	}
+
+	li {
+	display: inline;
+	list-style-type: none;
+	padding: 20px;
+	margin: 0;
+	width: 70px;	
+}
+	a {
+	text-decoration: none;
+	font-family: "Century Gothic";  
+	}
+
+	li:hover {
+		background-color: none;
+	}
+	
+	a:hover {
+      color: black;
+      background-color: white;
+	}
+
+}	
+
+
+
+
